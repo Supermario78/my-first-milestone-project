@@ -7,90 +7,185 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Personal Profile | Mario Perez Olea</title>
 </head>
 
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Mario Perez Olea</a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-2"><a class="nav-link" href="/">About Me</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/work history">Work History</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-3">
         <!-- Welcome page -->
         <div class="row">
             <div class="col-12">
-                <section class="welcome-page">
+                <section class="welcome-page jumbotron text-center">
                     <h1>Hi! I'm Mario, Welcome To My Site.</h1>
                     <p class="lead">My intention here is for you to get a picture of who I am, where I come from, what I have done and what challenges I'm excited to take next. Below, a recent interview on why I choose to change career directions and decided to become
                         a coder.
                     </p>
-                    <buttom class="btn btn-success btn-lg">Get In Touch!</buttom>
+                    <buttom class="btn btn-success btn-lg" data-toggle="modal" data-target="#getintouchModal">Get In Touch!</buttom>
                 </section>
             </div>
         </div>
         <!-- /. welcome page -->
-        <hr>
+    </div>
 
-        <!-- Recommendations -->
+    <!-- Recommendations -->
+    <div class="container recomendations-container">
         <section class="quotes">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase">What they said about working with Mario:</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-center my-5">
+                        <h2>What they said about Mario:</h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="d-none d-sm-block">
+                                        <div class="img-box"><img class="d-block img-fluid" src="assets/images/sharon.jpeg" alt=""></div>
+                                    </div>
+                                    <p class="testimonial">I had the pleasure of working with Mario during his time at the Shell offices in London. A true professional, efficient in carrying out his duties and courteous in his Front of House Management/ Hospitality role. I
+                                        would not hesitate to recommend him.</p>
+                                    <p class="overview"><b>Sharon Lewis</b>, Programme Communications Lead, IT & S</p>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="d-none d-sm-block">
+                                        <div class="img-box"><img src="assets/images/fiona.jpeg" alt=""></div>
+                                    </div>
+                                    <p class="testimonial">Mario provided excellent service at Shell within hospitliaty. He managed my events extremely well and at a high standard. it was a pleasure to work with him.</p>
+                                    <p class="overview"><b>Fiona Carter</b>, Business and Events Manager at Shell Foundation</p>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="d-none d-sm-block">
+                                        <div class="img-box"><img src="assets/images/matt.jpeg" alt=""></div>
+                                    </div>
+                                    <p class="testimonial">Mario is a hardworking and driven individual. His attention to detail is impressive and his work ethic is second to none. Its a pleasure to be working alongside Mr Perez.</p>
+                                    <p class="overview"><b>Matthew Rust</b>, Independent Study at TDLC Ltd</p>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="d-none d-md-block">
+                                        <div class="img-box"><img src="assets/images/edward.jpeg" alt=""></div>
+                                        <p class="testimonial">Mario manages key stakeholders with attentiveness and is an extremely genuine individual. He leaves no stone unturned in a bid to locate high quality candidates. Mario is consistently aware of every individual contractors
+                                            needs and constantly strives to find opportunities for temporary staff and does so quickly and efficiently.</p>
+                                        <p class="overview"><b>Edward Willson</b>, EPM/Financial Transformation Consultant</p>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="d-none d-md-block">
+                                        <div class="img-box"><img src="assets/images/christian.jpeg" alt=""></div>
+                                        <p class="testimonial">Mario showed already at the early stage on engagement a dedicated interest in understanding the Ethos of us and what we wanted out of the role we recruited for. Mario's commitment to client satisfaction is unparalleled
+                                            and this is evident in the results/candidates provided. I have no hesitation in recommending Mario for future appointments and considering he has just recently placed a second candidate with us, shows his adaptability
+                                            to difficult requests.</p>
+                                        <p class="overview"><b>Christian Kaberg SJS</b>, Group Operations Director at St. Pancras Hotel Group</p>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="d-none d-md-block">
+                                        <div class="img-box"><img src="assets/images/andrew.jpeg" alt=""></div>
+                                        <p class="testimonial">Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked
+                                            with. I wish Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
+                                        <p class="overview"><b>Andrew Duffy</b>, Recruitment Manager 2013</p>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="d-none d-md-block">
+                                        <div class="img-box"><img src="assets/images/caroline.jpeg" alt=""></div>
+                                        <p class="testimonial">It has been a great pleasure to work with Mario, who has always been very attentive to the teams he recruited for his clients. Mario is very approachable and flexible, he understands the needs and expectations of
+                                            both sides and is an excellent manager. I can only recommend Mario and wish him all the best professionally</p>
+                                        <p class="overview"><b>Caroline Cannesson</b>, BizDev @ Harness, Continuous Delivery Simplified</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					        <i class="fa fa-angle-left"></i>
+					        <span class="sr-only">Previous</span></a>
+                        <a class="carousel-control right carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					        <i class="fa fa-angle-right"></i>
+					        <span class="sr-only">Previous</span></a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked with. I wish
-                            Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                        <p><strong>- Andrew Duffy 1</strong></p>
-                        <p><small>Recruitment Manager 2013</small></p>
-                    </blockquote>
+    </div>
+    </section>
+    <!-- /. recommendations -->
+    </div>
+    <footer>
+    </footer>
+    <div class="modal" tabindex="-1" role="dialog" id="getintouchModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Get In Touch</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked with. I wish
-                            Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                        <p><strong>- Andrew Duffy 2</strong></p>
-                        <p><small>Recruitment Manager 2013</small></p>
-                    </blockquote>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked with. I wish
-                            Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                        <p><strong>- Andrew Duffy 3</strong></p>
-                        <p><small>Recruitment Manager 2013</small></p>
-                    </blockquote>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked with. I wish
-                            Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                        <p><strong>- Andrew Duffy 4</strong></p>
-                        <p><small>Recruitment Manager 2013</small></p>
-                    </blockquote>
-                </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked with. I wish
-                            Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                        <p><strong>- Andrew Duffy 5</strong></p>
-                        <p><small>Recruitment Manager 2013</small></p>
-                    </blockquote>
-                </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <blockquote class="blockquote">
-                        <p>Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked with. I wish
-                            Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                        <p><strong>- Andrew Duffy 6</strong></p>
-                        <p><small>Recruitment Manager 2013</small></p>
-                    </blockquote>
-                </div>
+                <!-- Default form contact -->
+                <form class="text-center border border-light p-5" action="#!">
+
+                    <p class="h4 mb-4">Contact Me!</p>
+
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Subject -->
+                    <label>Subject</label>
+                    <select class="browser-default custom-select mb-4">
+                        <option value="" disabled>Choose option</option>
+                        <option value="1" selected>Feedback</option>
+                        <option value="2">Report a bug</option>
+                        <option value="3">Request Colaboration</option>
+                        <option value="4">Job Prospect</option>
+                    </select>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <!-- Copy -->
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-success btn-block" type="submit">Send</button>
+
+                </form>
+                <!-- Default form contact -->
             </div>
-        </section>
-        <!-- /. recommendations -->
-        <hr>
-        <footer>
-        </footer>
-    </article>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
