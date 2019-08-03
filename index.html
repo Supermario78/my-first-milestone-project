@@ -13,32 +13,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Mario Perez Olea</a>
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Mario Perez Olea</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2"><a class="nav-link" href="/">About Me</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/work history">Work History</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container mt-3">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="/">About Me</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/work history">Work History</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid welcome-container">
         <!-- Welcome page -->
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="welcome-page jumbotron text-center">
-                    <h1>Hi! I'm Mario, Welcome To My Site.</h1>
-                    <p class="lead">My intention here is for you to get a picture of who I am, where I come from, what I have done and what challenges I'm excited to take next. Below, a recent interview on why I choose to change career directions and decided to become
-                        a coder.
-                    </p>
-                    <buttom class="btn btn-success btn-lg" data-toggle="modal" data-target="#getintouchModal">Get In Touch!</buttom>
+                    <h1 class="jumbotron-header">Hi! I'm Mario, Welcome To My Site.</h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Here you can get a picture of who I am, my background and what gets me up in the morning. Click below if you want to know more.</p>
+
+                    <div class="video-container d-none d-sm-block">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/BhMPvcX6PNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <buttom class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#getintouchModal">Get In Touch!</buttom>
                 </section>
             </div>
+
         </div>
         <!-- /. welcome page -->
     </div>
@@ -46,85 +53,83 @@
     <!-- Recommendations -->
     <div class="container recomendations-container">
         <section class="quotes">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-center my-5">
-                        <h2>What they said about Mario:</h2>
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Carousel indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                                <li data-target="#myCarousel" data-slide-to="3"></li>
-                            </ol>
-                            <!-- Wrapper for carousel items -->
-                            <div class="carousel-inner">
-                                <div class="item carousel-item active">
-                                    <div class="d-none d-sm-block">
-                                        <div class="img-box"><img class="d-block img-fluid" src="assets/images/sharon.jpeg" alt=""></div>
-                                    </div>
-                                    <p class="testimonial">I had the pleasure of working with Mario during his time at the Shell offices in London. A true professional, efficient in carrying out his duties and courteous in his Front of House Management/ Hospitality role. I
-                                        would not hesitate to recommend him.</p>
-                                    <p class="overview"><b>Sharon Lewis</b>, Programme Communications Lead, IT & S</p>
+            <div class="row">
+                <div class="col-md-8 col-center my-5">
+                    <h2>What they said about Mario:</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="d-none d-sm-block">
+                                    <div class="img-box"><img class="d-block img-fluid" src="assets/images/sharon.jpeg" alt=""></div>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="d-none d-sm-block">
-                                        <div class="img-box"><img src="assets/images/fiona.jpeg" alt=""></div>
-                                    </div>
-                                    <p class="testimonial">Mario provided excellent service at Shell within hospitliaty. He managed my events extremely well and at a high standard. it was a pleasure to work with him.</p>
-                                    <p class="overview"><b>Fiona Carter</b>, Business and Events Manager at Shell Foundation</p>
+                                <p class="testimonial">I had the pleasure of working with Mario during his time at the Shell offices in London. A true professional, efficient in carrying out his duties and courteous in his Front of House Management/ Hospitality role. I would
+                                    not hesitate to recommend him.</p>
+                                <p class="overview"><b>Sharon Lewis</b>, Programme Communications Lead, IT & S</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-sm-block">
+                                    <div class="img-box"><img src="assets/images/fiona.jpeg" alt=""></div>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="d-none d-sm-block">
-                                        <div class="img-box"><img src="assets/images/matt.jpeg" alt=""></div>
-                                    </div>
-                                    <p class="testimonial">Mario is a hardworking and driven individual. His attention to detail is impressive and his work ethic is second to none. Its a pleasure to be working alongside Mr Perez.</p>
-                                    <p class="overview"><b>Matthew Rust</b>, Independent Study at TDLC Ltd</p>
+                                <p class="testimonial">Mario provided excellent service at Shell within hospitliaty. He managed my events extremely well and at a high standard. it was a pleasure to work with him.</p>
+                                <p class="overview"><b>Fiona Carter</b>, Business and Events Manager at Shell Foundation</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-sm-block">
+                                    <div class="img-box"><img src="assets/images/matt.jpeg" alt=""></div>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="d-none d-md-block">
-                                        <div class="img-box"><img src="assets/images/edward.jpeg" alt=""></div>
-                                        <p class="testimonial">Mario manages key stakeholders with attentiveness and is an extremely genuine individual. He leaves no stone unturned in a bid to locate high quality candidates. Mario is consistently aware of every individual contractors
-                                            needs and constantly strives to find opportunities for temporary staff and does so quickly and efficiently.</p>
-                                        <p class="overview"><b>Edward Willson</b>, EPM/Financial Transformation Consultant</p>
-                                    </div>
+                                <p class="testimonial">Mario is a hardworking and driven individual. His attention to detail is impressive and his work ethic is second to none. Its a pleasure to be working alongside Mr Perez.</p>
+                                <p class="overview"><b>Matthew Rust</b>, Independent Study at TDLC Ltd</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-md-block">
+                                    <div class="img-box"><img src="assets/images/edward.jpeg" alt=""></div>
+                                    <p class="testimonial">Mario manages key stakeholders with attentiveness and is an extremely genuine individual. He leaves no stone unturned in a bid to locate high quality candidates. Mario is consistently aware of every individual contractors
+                                        needs and constantly strives to find opportunities for temporary staff and does so quickly and efficiently.</p>
+                                    <p class="overview"><b>Edward Willson</b>, EPM/Financial Transformation Consultant</p>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="d-none d-md-block">
-                                        <div class="img-box"><img src="assets/images/christian.jpeg" alt=""></div>
-                                        <p class="testimonial">Mario showed already at the early stage on engagement a dedicated interest in understanding the Ethos of us and what we wanted out of the role we recruited for. Mario's commitment to client satisfaction is unparalleled
-                                            and this is evident in the results/candidates provided. I have no hesitation in recommending Mario for future appointments and considering he has just recently placed a second candidate with us, shows his adaptability
-                                            to difficult requests.</p>
-                                        <p class="overview"><b>Christian Kaberg SJS</b>, Group Operations Director at St. Pancras Hotel Group</p>
-                                    </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-md-block">
+                                    <div class="img-box"><img src="assets/images/christian.jpeg" alt=""></div>
+                                    <p class="testimonial">Mario showed already at the early stage on engagement a dedicated interest in understanding the Ethos of us and what we wanted out of the role we recruited for. Mario's commitment to client satisfaction is unparalleled
+                                        and this is evident in the results/candidates provided. I have no hesitation in recommending Mario for future appointments and considering he has just recently placed a second candidate with us, shows his adaptability
+                                        to difficult requests.</p>
+                                    <p class="overview"><b>Christian Kaberg SJS</b>, Group Operations Director at St. Pancras Hotel Group</p>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="d-none d-md-block">
-                                        <div class="img-box"><img src="assets/images/andrew.jpeg" alt=""></div>
-                                        <p class="testimonial">Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked
-                                            with. I wish Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
-                                        <p class="overview"><b>Andrew Duffy</b>, Recruitment Manager 2013</p>
-                                    </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-md-block">
+                                    <div class="img-box"><img src="assets/images/andrew.jpeg" alt=""></div>
+                                    <p class="testimonial">Mario is down to earth, passionate and takes a lot of pride in his work. When it came to headhunting I found his technical skills, courage and "outside of the box" mentality to be up there with the best I have worked
+                                        with. I wish Mario all the best professionally and am in no doubt he will continue his rise to the top.</p>
+                                    <p class="overview"><b>Andrew Duffy</b>, Oil & Gas Recruitment Manager</p>
                                 </div>
-                                <div class="item carousel-item">
-                                    <div class="d-none d-md-block">
-                                        <div class="img-box"><img src="assets/images/caroline.jpeg" alt=""></div>
-                                        <p class="testimonial">It has been a great pleasure to work with Mario, who has always been very attentive to the teams he recruited for his clients. Mario is very approachable and flexible, he understands the needs and expectations of
-                                            both sides and is an excellent manager. I can only recommend Mario and wish him all the best professionally</p>
-                                        <p class="overview"><b>Caroline Cannesson</b>, BizDev @ Harness, Continuous Delivery Simplified</p>
-                                    </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-md-block">
+                                    <div class="img-box"><img src="assets/images/caroline.jpeg" alt=""></div>
+                                    <p class="testimonial">It has been a great pleasure to work with Mario, who has always been very attentive to the teams he recruited for his clients. Mario is very approachable and flexible, he understands the needs and expectations of both
+                                        sides and is an excellent manager. I can only recommend Mario and wish him all the best professionally</p>
+                                    <p class="overview"><b>Caroline Cannesson</b>, BizDev @ Harness, Continuous Delivery Simplified</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- Carousel controls -->
-                        <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
 					        <i class="fa fa-angle-left"></i>
 					        <span class="sr-only">Previous</span></a>
-                        <a class="carousel-control right carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <a class="carousel-control right carousel-control-next" href="#myCarousel" role="button" data-slide="next">
 					        <i class="fa fa-angle-right"></i>
 					        <span class="sr-only">Previous</span></a>
-                    </div>
                 </div>
             </div>
     </div>
@@ -175,7 +180,7 @@
                     </div>
 
                     <!-- Send button -->
-                    <button class="btn btn-success btn-block" type="submit">Send</button>
+                    <button class="btn btn-lg btn--cta btn--red" type="submit">Send</button>
 
                 </form>
                 <!-- Default form contact -->
