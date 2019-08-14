@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2890cdb4fa.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Personal Profile | Mario Perez Olea</title>
 </head>
@@ -21,10 +22,10 @@
         <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-2"><a class="nav-link" href="/">About Me</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/work history">Work History</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Me</a></li>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="#about-me">About Me</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="work-history.html" class="hvr-sweep-to-bottom">Work History</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -49,9 +50,117 @@
         </div>
         <!-- /. welcome page -->
     </div>
+    <section class="container-fluid">
+        <div class="row">
+            <a href="index.html" class="col-md-4 logo">
+                
+            </a>
+            <div class="col-md-8 bg-color-three-points" id="about-me">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading">About Me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-points-icon fas fa-user" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-points-heading uppercase">Who I am</h4>
+                                <p>
+                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-points-icon fas fa-briefcase" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-points-heading uppercase">My Background</h4>
+                                <p>
+                                    I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-points-icon fas fa-mug-hot"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-points-heading uppercase">What Gets Me Up In The Morning!</h4>
+                            <p>
+                                I work quickly and effectively in getting things build and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Recommendations -->
-    <div class="container-fluid recomendations-container">
+    <!---------------------------------------------------- Recommendations Carousel-- -->
+   
+   
+    <div class="container-fluid recomendations-container mobile-view">
+        <section class="quotes">
+            <div class="row">
+                <div class="col-md-8 col-center my-5">
+                    <h2>What they said about Mario:</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="d-none d-sm-block">
+                                    <div class="img-box"><img class="d-block img-fluid" src="assets/images/sharon.jpeg" alt=""></div>
+                                </div>
+                                <p class="testimonial">I had the pleasure of working with Mario during his time at the Shell offices in London. A true professional, efficient in carrying out his duties and courteous in his Front of House Management/ Hospitality role. I would
+                                    not hesitate to recommend him.</p>
+                                <p class="overview"><b>Sharon Lewis</b>, Programme Communications Lead, IT & S</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-sm-block">
+                                    <div class="img-box"><img src="assets/images/fiona.jpeg" alt=""></div>
+                                </div>
+                                <p class="testimonial">Mario provided excellent service at Shell within hospitliaty. He managed my events extremely well and at a high standard. it was a pleasure to work with him.</p>
+                                <p class="overview"><b>Fiona Carter</b>, Business and Events Manager at Shell Foundation</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="d-none d-sm-block">
+                                    <div class="img-box"><img src="assets/images/matt.jpeg" alt=""></div>
+                                </div>
+                                <p class="testimonial">Mario is a hardworking and driven individual. His attention to detail is impressive and his work ethic is second to none. Its a pleasure to be working alongside Mr Perez.</p>
+                                <p class="overview"><b>Matthew Rust</b>, Independent Study at TDLC Ltd</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					        <i class="fa fa-angle-left"></i>
+					        <span class="sr-only">Previous</span></a>
+                    <a class="carousel-control right carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					        <i class="fa fa-angle-right"></i>
+					        <span class="sr-only">Previous</span></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="container-fluid recomendations-container desktop-view">
         <section class="quotes">
             <div class="row">
                 <div class="col-md-8 col-center my-5">
@@ -135,8 +244,8 @@
         </section>
     </div>
     <!-- /. recommendations -->
-    
-<!-----------------  footer -------->
+
+    <!-----------------  footer -------->
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -161,43 +270,43 @@
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com/mpolea">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/MJAPO_2013">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.linkedin.com/in/marioperezolea/">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
                             <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.youtube.com/channel/UCkFh0lc0NAoH8dJ1NBmKNEQ">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://github.com/Supermario78">
-                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <i class="fab fa-github" aria-hidden="true"></i>
                             <span class="sr-only">GitHub</span>
                         </a>
                     </li>
@@ -207,7 +316,7 @@
         </div>
     </footer>
     <!-------- /. footer ------->
-    
+
     <div class="modal" tabindex="-1" role="dialog" id="getintouchModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
