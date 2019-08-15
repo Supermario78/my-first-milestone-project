@@ -12,64 +12,68 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Personal Profile | Mario Perez Olea</title>
 </head>
+
 <body>
-    <div class="row no-gutters bg-color-name-history-title">
-        <div class="col-12 heading">
-            <ul id="nav" class="list-inline menucontainer">
-                <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                    <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
-                </li>
-                <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-                    <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                </li>
-                <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                    <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fas fa-comment" aria-hidden="true"></i><span>Contact</span></a>
-                </li>
-                <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                    <a href="assets/images/sample-cv.pdf" target="_blank" class="cv-pdf"><i class="fas fa-download" aria-hidden="true"></i><span>Download</span></a>
-                </li>
-            </ul>
+    <section class="container-fluid fixed-top">
+        <div class="navalert-container navbar-contact">
+            <nav class="navbar navbar-dark navbar-expand-sm">
+                <a href="index.html" class="navbar-brand">Mario Perez Olea</a>
+
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-2"><a class="nav-link" href="#about-me">About Me</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="work-history.html" class="hvr-sweep-to-bottom">Work History</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </div>
+    </section>
 
     <section class="container-fluid">
-        <div class="row history-section">
-            <a href="index.html" class="col-md-4 logo">
-                
-            </a>
-            <div class="col-md-8 bg-color-three-points">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading">My Skills</h3>
+        <div class="row bg-color-contact-section">
+            <div class="col">
+                <h3 class="contact-heading text-center">Get In Touch</h3>
+                <hr class="block-divider block-divider--orange">
+
+                <h5 class="text-center">Contact Me!</h5>
+
+                <div class="center-form text-center">
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Subject -->
+                    <label>Subject</label>
+                    <select class="browser-default custom-select mb-4">
+                        <option value="" disabled>Choose option</option>
+                        <option value="1" selected>Feedback</option>
+                        <option value="2">Report a bug</option>
+                        <option value="3">Request Colaboration</option>
+                        <option value="4">Job Prospect</option>
+                        <option value="5">Other</option>
+                    </select>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-points-icon fas fa-tv" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-points-heading uppercase">Front End</h4>
-                                <p>
-                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project
-                                </p>
-                            </div>
-                        </div>
+
+                    <!-- Copy -->
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-points-icon fas fa-cogs" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-points-heading uppercase">Back End</h4>
-                                <p>
-                                    I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-lg btn--cta btn--red" type="submit">Send</button>
+
+                    </form>
                 </div>
             </div>
         </div>
@@ -77,7 +81,7 @@
     <!-----------------  footer -------->
 
     <footer class="container-fluid">
-        <div id="footer-details" class="row">
+        <div id="footer-details" class="row footer-contact">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
