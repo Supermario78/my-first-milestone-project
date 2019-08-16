@@ -25,7 +25,7 @@ body {
 .center-form {
 	padding-top: 10px;
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 80%;
 }
 
 .history-name {
@@ -652,7 +652,7 @@ margin-bottom: 30px;
 /* --------------- Footer Personal Info. ------------- */
 
 .personal-info-item {
-	margin-bottom: 9px;
+	margin-bottom: 5px;
 	display: block;
 	clear: both;
 }
