@@ -284,7 +284,7 @@ body {
 	-o-transition: all .5s ease-in-out;
 }
 
-/* --------------------- Carousel -------------*/
+/* --------------------- Media Queries -------------*/
 .mobile-view {
 	display: none;
 }
@@ -298,8 +298,16 @@ body {
 	}
 }
 
+@media(min-width: 992px) {
+	.center-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
+}
 
-
+/* --------------------- Carousel -------------*/
 
 h2 {
 	color: #333;
@@ -639,4 +647,39 @@ margin-bottom: 30px;
 
 .progress-section {
 	margin: 40px 20px;
+}
+
+/* --------------- Footer Personal Info. ------------- */
+
+.personal-info-item {
+	margin-bottom: 9px;
+	display: block;
+	clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+	padding-right: 8px;
+	display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+	margin: 0;
+}
+
+.personal-info-item .key {
+	width: 30%;
+	margin-right: 21px;
+	padding-top: 2px;
+	vertical-align: top;
+}
+
+.personal-info-item .key p {
+	font-weight: 700;
+}
+
+.personal-info-item .value {
+	position: relative;
+	width: 60%;
 }
