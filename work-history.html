@@ -14,55 +14,54 @@
 </head>
 
 <body>
-    <div class="row no-gutters bg-color-name-history-title">
-        <div class="col-12 heading">
-            <ul id="nav" class="list-inline menucontainer">
-                <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                    <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
-                </li>
-                <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                    <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fas fa-comment" aria-hidden="true"></i><span>Contact</span></a>
-                </li>
-                <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-                    <a href="work-history.html" class="hvr-sweep-to-bottom"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                </li>
-                <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                    <a href="assets/images/sample-cv.pdf" target="_blank" class="cv-pdf"><i class="fas fa-download" aria-hidden="true"></i><span>Download</span></a>
-                </li>
-            </ul>
-        </div>
+    <div class="container-fluid navalert-container navbar-work">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="index.html" class="navbar-brand">Mario Perez Olea</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html#about-me">About Me</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="work-history.html" class="hvr-sweep-to-bottom">Work History</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
+
     <section class="container-fluid">
-        <div class="row">
+        <div class="row history-body">
             <div class="col-md-4 bg-color-work-history section-columm">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="history-heading">Work History</h3>
+                        <h3 class="history-heading">Experience</h3>
                     </div>
                 </div>
                 <div class="history-items">
-                    <div class="timeline-item" data-dates="02/1998 - 04/2004">
-                        <h4>National Collage of Arts</h4>
-                        <p> Sculptor in resident</p>
+                    <div class="timeline-item" data-dates="Oct 2018 - Present">
+                        <h4>Code Institute</h4>
+                        <p>Software Development Student</p>
                     </div>
-                    <div class="timeline-item" data-dates="02/1998 - 04/2004">
-                        <h4>National Collage of Arts</h4>
-                        <p> Sculptor in resident</p>
+                    <div class="timeline-item" data-dates="Feb 2018 - Oct 2018">
+                        <h4>Bollegården Sport Hotel, Sweden</h4>
+                        <p>Opening Restaurant Manager</p>
                     </div>
-                    <div class="timeline-item" data-dates="02/1998 - 04/2004">
-                        <h4>National Collage of Arts</h4>
-                        <p> Sculptor in resident</p>
+                    <div class="timeline-item" data-dates="May 2017 - Jan 2018">
+                        <h4>Orbaden Spa & Resort, Sweden</h4>
+                        <p> Restaurant Waiter</p>
                     </div>
-                    <div class="timeline-item" data-dates="02/1998 - 04/2004">
-                        <h4>National Collage of Arts</h4>
-                        <p> Sculptor in resident</p>
+                    <div class="timeline-item" data-dates="Feb 2016 - Jan 2017">
+                        <h4>Post & Place Ltd. London UK.</h4>
+                        <p>Business Development Director</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-8 bg-color-three-points">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading">My Skills</h3>
+                        <h3 class="section-heading">Skills</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -74,7 +73,7 @@
                             <div class="col-10">
                                 <h4 class="three-points-heading uppercase">Front End</h4>
                                 <p>
-                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project
+                                    I'm constanly developing my skills in User Experience Design using the trinity of HTML/CSS/JavaScript. I also have experience in Front End Frameworks such as Angular and React.
                                 </p>
                             </div>
                         </div>
@@ -87,9 +86,55 @@
                             <div class="col-10">
                                 <h4 class="three-points-heading uppercase">Back End</h4>
                                 <p>
-                                    I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
+                                    I specialize in data-driven wed applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row progress-section">
+                    <div class="col">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                                <span class="sr-only">90% complete</span>
+                            </div>
+                            <span class="progress-type">HTML / HTML5</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                            <span class="progress-type">CSS / CSS3</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                                <span class="sr-only">70% complete</span>
+                            </div>
+                            <span class="progress-type">JavaScript / jQuery</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                            <span class="progress-type">RECRUITING</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width:68%;">
+                                <span class="sr-only">68% complete</span>
+                            </div>
+                            <span class="progress-type">MANAGEMENT</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width:66%;">
+                                <span class="sr-only">66% complete</span>
+                            </div>
+                            <span class="progress-type">HOSPITALITY</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar text-white bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%;">
+                                <span class="sr-only">85% complete</span>
+                            </div>
+                            <span class="progress-type">BUSINESS DEVELOPMENT</span>
                         </div>
                     </div>
                 </div>
