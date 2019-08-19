@@ -24,37 +24,34 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="#about-me">About Me</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="work-history.html" class="hvr-sweep-to-bottom">Work History</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link hvr-sweep-to-bottom" href="work-history.html">Work History</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </div>
     <div class="container-fluid welcome-container">
-        <!-- Welcome page -->
+        <!-- ======= Welcome page ======= -->
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
-            <div class="col-12">
-                <section class="welcome-page jumbotron text-center">
+            <section class="welcome-page jumbotron text-center">
+                <div class="col-12">
                     <h1 class="jumbotron-header">Hi! I'm Mario, Welcome To My Site.</h1>
                     <hr class="block-divider block-divider--orange">
                     <p class="lead">Here you can get a picture of who I am, my background and what gets me up in the morning. Click below to know more.</p>
 
                     <div class="video-container d-none d-sm-block">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/BhMPvcX6PNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/BhMPvcX6PNQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <buttom class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#getintouchModal">Get In Touch!</buttom>
-                </section>
-            </div>
-
+                    <div class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#getintouchModal">Get In Touch!</div>
+                </div>
+            </section>
         </div>
-        <!-- /. welcome page -->
     </div>
+    <!-- /. welcome page -->
     <section class="container-fluid">
         <div class="row">
-            <a href="index.html" class="col-md-4 logo">
-                
-            </a>
+            <a href="index.html" class="col-md-4 logo"></a>
             <div class="col-md-8 bg-color-three-points" id="about-me">
                 <div class="row">
                     <div class="col">
@@ -64,10 +61,10 @@
                 <div class="row">
                     <div class="col-10 offset-1 offset-sm-0 col-sm4 col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 user-icon">
                                 <i class="three-points-icon fas fa-user" aria-hidden="true"></i>
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 user-who">
                                 <h4 class="three-points-heading uppercase">Who I am</h4>
                                 <p>
                                     I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project
@@ -106,9 +103,9 @@
         </div>
     </section>
 
-    <!---------------------------------------------------- Recommendations Carousel-- -->
-   
-   
+    <!-- ==================== Recommendations Carousel======= -->
+
+
     <div class="container-fluid recomendations-container mobile-view">
         <section class="quotes">
             <div class="row">
@@ -122,7 +119,7 @@
                             <li data-target="#myCarousel" data-slide-to="2"></li>
                             <li data-target="#myCarousel" data-slide-to="3"></li>
                         </ol>
-                        <!-- Wrapper for carousel items -->
+                        <!-- ======= Wrapper for carousel items ======== -->
                         <div class="carousel-inner">
                             <div class="item carousel-item active">
                                 <div class="d-none d-sm-block">
@@ -148,7 +145,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Carousel controls -->
+                    <!-- ============== Carousel controls =============== -->
                     <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
 					        <i class="fa fa-angle-left"></i>
 					        <span class="sr-only">Previous</span></a>
@@ -159,21 +156,21 @@
             </div>
         </section>
     </div>
-    
+
     <div class="container-fluid recomendations-container desktop-view">
         <section class="quotes">
             <div class="row">
                 <div class="col-md-8 col-center my-5">
                     <h2>What they said about Mario:</h2>
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel2" data-slide-to="3"></li>
                         </ol>
-                        <!-- Wrapper for carousel items -->
+                        <!-- ============= Wrapper for carousel items ========= -->
                         <div class="carousel-inner">
                             <div class="item carousel-item active">
                                 <div class="d-none d-sm-block">
@@ -232,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Carousel controls -->
+                    <!-- ====== Carousel controls ======= -->
                     <a class="carousel-control left carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
 					        <i class="fa fa-angle-left"></i>
 					        <span class="sr-only">Previous</span></a>
@@ -242,10 +239,10 @@
                 </div>
             </div>
         </section>
-    </div>
     <!-- /. recommendations -->
+    </div>
 
-    <!-----------------  footer -------->
+    <!-- ====================  footer =============== -->
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -313,9 +310,8 @@
                 </ul>
             </div>
         </div>
-        </div>
     </footer>
-    <!-------- /. footer ------->
+    <!-- ========= /. footer ======== -->
 
     <div class="modal" tabindex="-1" role="dialog" id="getintouchModal">
         <div class="modal-dialog" role="document">

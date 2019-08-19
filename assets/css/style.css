@@ -190,7 +190,7 @@ body {
 }
 
 .navbar-dark .navbar-brand:hover {
-    color: #e84610;
+	color: #e84610;
 }
 
 .navbar .navbar-nav a {
@@ -221,6 +221,10 @@ body {
 	margin: 25px;
 	color: #fff;
 	margin-bottom: 30px;
+}
+
+iframe {
+	border: 0;
 }
 
 /* ----------------. Buttons ------------- */
@@ -285,6 +289,7 @@ body {
 }
 
 /* --------------------- Media Queries -------------*/
+
 .mobile-view {
 	display: none;
 }
@@ -304,6 +309,12 @@ body {
 		min-height: 240px;
 		margin: 0 auto;
 		max-width: 50%;
+	}
+	.user-icon {
+		padding-left: 30px;
+	}
+	.user-who {
+		padding-left: 30px;
 	}
 }
 
@@ -430,7 +441,7 @@ h2::after {
 .footer-contact {
 	margin-top: 30px;
 	margin-bottom: 0px;
-	
+
 }
 
 .uppercase {
@@ -583,7 +594,7 @@ footer {
 }
 
 .timeline-item {
-	padding :4em 2em 0em 2em;
+	padding: 4em 2em 0em 2em;
 	position: relative;
 	color: #fafafa;
 	border-left: 1px solid;
@@ -600,7 +611,7 @@ footer {
 	left: 2.5em;
 	top: 3em;
 	display: block;
-	font-family: "Exo" , sans-serif;
+	font-family: "Exo", sans-serif;
 	font-weight: 500;
 	font-size: 0.8em;
 	padding: 0;
@@ -620,7 +631,7 @@ footer {
 }
 
 .history-items {
-margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .history-body {
@@ -652,7 +663,7 @@ margin-bottom: 30px;
 /* --------------- Footer Personal Info. ------------- */
 
 .personal-info-item {
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 	display: block;
 	clear: both;
 }
