@@ -30,7 +30,7 @@ body {
 
 .history-name {
 	font-family: "Exo", sans-serif;
-	font-weight: 100px;
+	font-weight: 100;
 	font-size: 28px;
 	margin-top: 20px;
 	color: #f05f40;
@@ -183,8 +183,7 @@ body {
 }
 
 .navbar-brand {
-	font-family: "Exo";
-	sans-serif;
+	font-family: "Exo" , sans-serif;
 	color: #fff;
 	font-weight: bold;
 }
@@ -206,8 +205,7 @@ body {
 }
 
 .jumbotron-header {
-	font-family: "Exo";
-	sans-serif;
+	font-family: "Exo" , sans-serif;
 	color: #fff;
 	font-weight: 400;
 	font-size: 46px;
@@ -216,8 +214,7 @@ body {
 }
 
 .jumbotron .lead {
-	font-family: "Roboto";
-	sans-serif;
+	font-family: "Roboto" , sans-serif;
 	margin: 25px;
 	color: #fff;
 	margin-bottom: 30px;
@@ -449,8 +446,7 @@ h2::after {
 }
 
 .general-sub {
-	font-family: "Exo";
-	sans-serif;
+	font-family: "Exo" , sans-serif;
 	font-weight: 300;
 	color: #f05f40;
 }
