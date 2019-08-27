@@ -66,7 +66,7 @@ I have checked and worked on all the necesary corrections to make sure all my co
 
 I have run my project on both Firefox and Google Chrome and found no issues on desktop mode.
 
-On google chrome mobile version, I found some issues on the header dropdown toggle menu option feature for all 3 of my links pages, I managed to fix the contact form page on mobile view and ![work-history]("/assets/images/work-history-screenshot.png"), but the header menu bar on the main page has room for improovement.
+On google chrome mobile version, I found some issues on the header dropdown toggle menu option feature for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improovement.
 
 
 ## Deployment
