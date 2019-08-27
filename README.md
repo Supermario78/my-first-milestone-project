@@ -18,6 +18,8 @@ The recommendations feature, also provided me with a quick reference of how he w
 Overall, it is a great effort but with room for improvement.
  
 -As a visitor, looking for someone to colaborate with, I liked how sections such as the recommendations, work history and skills where clear and simple to view and understand,it was like a 3D C.V.
+
+
 ---
 
 
@@ -90,10 +92,6 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 
 ## Acknowledgements
 
-<<<<<<< HEAD
 - I want to acknowledge my wife for her massive support during this project including all the spelling checks.
-- I also want to give a massive thanks to my wonderful mentor, Anthony Montaro for all his patience support and guidence every step of the way.
-=======
-- I want to acknowledge my wife for her massive support during this project including all the slepping checks and ideas.
-- I also want to give a massive thanks to my wonderfull mentor Anthony Montaro for all his patience support and guidence every step of the way.
->>>>>>> 9f2995f257665ad4b4535f5a3648828e73c994c8
+- I also want to give a massive thanks to my brilliant mentor, Anthony Montaro for all his patience support and guidence every step of the way.
+
