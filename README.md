@@ -17,7 +17,7 @@ At the initial stage of my UX design I got familiar with Balsamic wireframe, whi
 The recommendations feature, also provided me with a quick reference of how he was perceived by others who worked with him or above him, I particularly like the pop up option to contact him directly without leaving the site.
 Overall, it is a great effort but with room for improvement.
  
--As a visitor, looking for someone to colaborate with, I liked how sections such as the recommendations, work history and skills where clear and simple to view and understand,it was like a 3D C.V.
+-As a visitor, looking for someone to collaborate with, I liked how sections such as the recommendations, work history and skills were clear and simple to view and understand,it was like a 3D C.V.
 
 
 ---
@@ -57,17 +57,17 @@ Overall, it is a great effort but with room for improvement.
 
 ## Testing
 
-I have gone a great lenght to make sure testing was done to the best of my abiliy. 
+I have gone to a great length to make sure testing was done to the best of my abiliy. 
 
 ### Code Checking
 
-I have checked and worked on all the necesary corrections to make sure all my pages where CCS3 And HTML5 aprooved, I had 9 errors on HTML5 and 12 on CSS3 of which I managed to fix.
+I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 9 errors on HTML5 and 12 on CSS3 of which I managed to fix.
 
 ### WEb Broswers
 
 I have run my project on both Firefox and Google Chrome and found no issues on desktop mode.
 
-On Google Chrome mobile view, I did found some issues on the header dropdown toggle menu option feature, for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improovement as you can see from the picture below.
+On Google Chrome mobile view, I did found some issues on the header dropdown toggle menu option feature, for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improvement as you can see from the picture below.
 
 ![Mobile View Toggle](https://github.com/Supermario78/my-first-milestone-project/blob/master/assets/images/mobile-view.jpg?raw=true)
 
@@ -79,13 +79,13 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 - Log into my github profile page and click on my project's name,
 - clicked on settings,
 - scroll down the page to GitHub Pages,
-- under Source, sellected master branch and [My First Milestone Project - Personal Website](https://supermario78.github.io/my-first-milestone-project/) is published!
+- under Source, selected master branch and [My First Milestone Project - Personal Website](https://supermario78.github.io/my-first-milestone-project/) is published!
 
 ## Credits
 
 ### Content
 
-- The recomendations carousel details and pictures where taken from my personal [LinkedIn](https://www.linkedin.com/in/marioperezolea/) account.
+- The recommendations carousel details and pictures where taken from my personal [LinkedIn](https://www.linkedin.com/in/marioperezolea/) account.
 - Screenshots pictures taken by myself.
 - The [landing page](https://www.pexels.com/photo/road-toward-mountains-2387634/) background picture, titled, Road Towards Mountains, is Licence free to use.
 
@@ -93,5 +93,5 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 ## Acknowledgements
 
 - I want to acknowledge my wife for her massive support during this project including all the spelling checks.
-- I also want to give a massive thanks to my brilliant mentor, Anthony Montaro for all his patience support and guidence every step of the way.
+- I also want to give a massive thanks to my brilliant mentor, Anthony Montaro for all his patience support and guidance every step of the way.
 
