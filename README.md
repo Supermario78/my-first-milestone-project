@@ -87,7 +87,7 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 
 - The recomendations carousel details and pictures where taken from my personal [LinkedIn](https://www.linkedin.com/in/marioperezolea/) account.
 - Screenshots pictures taken by myself.
-- The Main background [landing page](https://www.pexels.com/photo/road-toward-mountains-2387634/) picture, titled, Road Towards Mountains, is Licence free to use.
+- The [landing page](https://www.pexels.com/photo/road-toward-mountains-2387634/) background picture, titled, Road Towards Mountains, is Licence free to use.
 
 
 ## Acknowledgements
