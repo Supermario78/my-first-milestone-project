@@ -13,12 +13,11 @@ At the initial stage of my UX design I got familiar with Balsamic wireframe, whi
 
 ### User Feedback
 
--As a recruiter and first time visitor to Mario's web page, I found his landing page easy to read and navagate, the video feature gave me an instant feel for Mario's personality and carrer focus.
- The recomendations features also provided me with a quick refecence of how he was persived by others who worked with him or above him, I particulary like the pop up option to contact him direcly without leaving the site.
- Overall, is a good efford with room for improovement.
+-As a recruiter and first time visitor to Mario's web page, I found his landing page easy to read, user friendly and with intuitive navigation, the video feature gave me an instant feel for Mario's personality and career focus.
+The recommendations feature, also provided me with a quick reference of how he was perceived by others who worked with him or above him, I particularly like the pop up option to contact him directly without leaving the site.
+Overall, it is a great effort but with room for improvement.
  
--As a visitor, I liked the sellected information such as recomendations, work history and skills easy to read and understand, is like a 3D CV, where you have all the relevants part of information displayed on the screen. you get to know Mario much easier and quicker just a few clicks
-
+-As a visitor, looking for someone to colaborate with, I liked how sections such as the recommendations, work history and skills where clear and simple to view and understand,it was like a 3D C.V.
 ---
 
 
@@ -56,38 +55,38 @@ At the initial stage of my UX design I got familiar with Balsamic wireframe, whi
 
 ## Testing
 
-I have gone a great lenght to make sure testing was done to the best of my abiliy, 
+I have gone a great lenght to make sure testing was done to the best of my abiliy. 
 
 ### Code Checking
 
-I have checked and worked on all the necesary corrections to make sure all my code pages where CCS3 And HTML5 aprooved, I had 9 errors on HTML5 and 12 on CSS3 of which I managed to fix.
+I have checked and worked on all the necesary corrections to make sure all my pages where CCS3 And HTML5 aprooved, I had 9 errors on HTML5 and 12 on CSS3 of which I managed to fix.
 
 ### WEb Broswers
 
 I have run my project on both Firefox and Google Chrome and found no issues on desktop mode.
 
-On google chrome mobile version, I found some issues on the header dropdown toggle menu option feature for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improovement.
+On Google Chrome mobile view, I did found some issues on the header dropdown toggle menu option feature, for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improovement as you can see from the picture below.
 
 
 ## Deployment
 
-I choose to deploy this project on GitHub Pages, below are the steps I used to deployment.
+I choose to deploy this project on GitHub Pages, below are the steps I used to deploy.
 
-- log into my github profile page and click on my project's name
-- clicked on settings
-- scroll down the page to GitHub Pages
-- under Source, sellected master branch and [My First Milestone Project - Personal Website](https://supermario78.github.io/my-first-milestone-project/)is published!
+- Log into my github profile page and click on my project's name,
+- clicked on settings,
+- scroll down the page to GitHub Pages,
+- under Source, sellected master branch and [My First Milestone Project - Personal Website](https://supermario78.github.io/my-first-milestone-project/) is published!
 
 ## Credits
 
 ### Content
 
-- The recomendations details and pictures where taken from my personal [LinkedIn](https://www.linkedin.com/in/marioperezolea/) account.
+- The recomendations carousel details and pictures where taken from my personal [LinkedIn](https://www.linkedin.com/in/marioperezolea/) account.
 - Screenshots pictures taken by myself.
-- Main [landing page](https://www.pexels.com/photo/road-toward-mountains-2387634/) picture title, Road toward mountains is Licence free to use.
+- The Main background [landing page](https://www.pexels.com/photo/road-toward-mountains-2387634/) picture, titled, Road Towards Mountains, is Licence free to use.
 
 
 ## Acknowledgements
 
-- I want to acknowledge my wife for her massive support during this project including all the slepping checks and ideas.
-- I also want to give a massive thanks to my wonderfull mentor Anthony Montaro for all his patience support and guidence every step of the way.
+- I want to acknowledge my wife for her massive support during this project including all the spelling checks.
+- I also want to give a massive thanks to my wonderful mentor, Anthony Montaro for all his patience support and guidence every step of the way.
