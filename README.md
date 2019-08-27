@@ -68,6 +68,8 @@ I have run my project on both Firefox and Google Chrome and found no issues on d
 
 On google chrome mobile version, I found some issues on the header dropdown toggle menu option feature for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improovement.
 
+![Mobile View Toggle](https://github.com/Supermario78/my-first-milestone-project/blob/master/assets/images/mobile-view.jpg?raw=true)
+
 
 ## Deployment
 
